@@ -1,0 +1,92 @@
+{
+    "global": {
+        "run info": {
+            "run list": [
+                [
+                    20427,
+                    20428,
+                    20429
+                ],
+                [
+                    20431
+                ],
+                [
+                    20434
+                ],
+                [
+                    20437,
+                    20438,
+                    20439
+                ],
+                [
+                    20474
+                ],
+                [
+                    20418,
+                    20482
+                ],
+                [
+                    20513,
+                    20514,
+                    20517,
+                    20518
+                ],
+                [
+                    20521
+                ],
+                [
+                    20526
+                ],
+                [
+                    20331
+                ],
+                [
+                    20528
+                ],
+                [
+                    20530
+                ],
+                [
+                    20535
+                ],
+                [
+                    20539
+                ]
+            ],
+            "run energies": [
+                200,
+                175,
+                200,
+                250,
+                120,
+                250,
+                225,
+                100,
+                80,
+                300,
+                60,
+                40,
+                150,
+                175
+            ],
+            "do fitamp": true,
+            "do matrix 3x3": true
+        }
+    },
+    "cuts": [
+        "hodo_y1_single_cl_flag && (hodo_y1_cl0_pos > -7 && hodo_y1_cl0_pos < 3) &&hodo_x1_single_cl_flag && hodo_x2_single_cl_flag && (((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) > -14 && ((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) < 4)",
+        "hodo_y1_single_cl_flag && (hodo_y1_cl0_pos > -5 && hodo_y1_cl0_pos < 5) &&hodo_x1_single_cl_flag && hodo_x2_single_cl_flag && (((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) > -11 && ((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) < -1)",
+        "hodo_y1_single_cl_flag && (hodo_y1_cl0_pos > -5 && hodo_y1_cl0_pos < 5) &&hodo_x1_single_cl_flag && hodo_x2_single_cl_flag && (((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) > -15 && ((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) < -5)",
+        "hodo_y1_single_cl_flag && (hodo_y1_cl0_pos > -5 && hodo_y1_cl0_pos < 5) &&hodo_x1_single_cl_flag && hodo_x2_single_cl_flag && (((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) > -15 && ((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) < -5)",
+        "hodo_y1_single_cl_flag && (hodo_y1_cl0_pos > -2 && hodo_y1_cl0_pos < 8) &&hodo_x1_single_cl_flag && hodo_x2_single_cl_flag && (((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) > -15 && ((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) < -5)",
+        "hodo_y1_single_cl_flag && (hodo_y1_cl0_pos > -5 && hodo_y1_cl0_pos < 5) &&hodo_x1_single_cl_flag && hodo_x2_single_cl_flag && (((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) > -15 && ((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) < -5)",
+        "hodo_y1_single_cl_flag && (hodo_y1_cl0_pos > 1 && hodo_y1_cl0_pos < 11) &&hodo_x1_single_cl_flag && hodo_x2_single_cl_flag && (((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) > -15 && ((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) < -5)",
+        "hodo_y1_single_cl_flag && (hodo_y1_cl0_pos > 1 && hodo_y1_cl0_pos < 11) &&hodo_x1_single_cl_flag && hodo_x2_single_cl_flag && (((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) > -13 && ((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) < -3)",
+        "hodo_y1_single_cl_flag && (hodo_y1_cl0_pos > -5 && hodo_y1_cl0_pos < 5) &&hodo_x1_single_cl_flag && hodo_x2_single_cl_flag && (((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) > -11 && ((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) < -1)",
+        "hodo_y1_single_cl_flag && (hodo_y1_cl0_pos > -4 && hodo_y1_cl0_pos < 6) &&hodo_x1_single_cl_flag && hodo_x2_single_cl_flag && (((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) > -6 && ((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) < 4)",
+        "hodo_y1_single_cl_flag && (hodo_y1_cl0_pos > -2 && hodo_y1_cl0_pos < 8) &&hodo_x1_single_cl_flag && hodo_x2_single_cl_flag && (((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) > -9 && ((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) < 1)",
+        "hodo_y1_single_cl_flag && (hodo_y1_cl0_pos > -5 && hodo_y1_cl0_pos < 5) &&hodo_x1_single_cl_flag && hodo_x2_single_cl_flag && (((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) > -12 && ((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) < 2)",
+        "hodo_y1_single_cl_flag && (hodo_y1_cl0_pos > -3 && hodo_y1_cl0_pos < 7) &&hodo_x1_single_cl_flag && hodo_x2_single_cl_flag && (((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) > -15 && ((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) < -5)",
+        "hodo_y1_single_cl_flag && (hodo_y1_cl0_pos > -5 && hodo_y1_cl0_pos < 5) &&hodo_x1_single_cl_flag && hodo_x2_single_cl_flag && (((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) > -15 && ((hodo_x1_cl0_pos + hodo_x2_cl0_pos)/2) < -5)"
+    ]
+}
